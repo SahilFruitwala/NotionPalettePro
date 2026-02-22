@@ -455,17 +455,580 @@ body.zen-theme-gray {
   --ca-popWaxPapBac: #FFFFFFe6 !important;
   --c-palGra0: #FFFFFF !important;
 }
+/* ========================================= */
+/* DRACULA (Dark)                            */
+/* Classic purple-accented dark theme        */
+/* ========================================= */
+body.zen-theme-dracula .notion-app-inner,
+body.zen-theme-dracula .notion-light-theme,
+body.zen-theme-dracula .notion-dark-theme,
+body.zen-theme-dracula {
+  --c-bacPri: #282a36 !important;
+  --c-bacPriW: #282a36 !important;
+  --c-bacSec: #21222c !important;
+  --c-bacTer: #44475a !important;
+  --c-bacEle: #44475a !important;
+  --c-bacAccPri: #bd93f9 !important;
+  --c-bacAccSec: #ff79c6 !important;
+  --c-bacPriInv: #f8f8f2 !important;
+
+  --c-texPri: #f8f8f2 !important;
+  --c-texSec: #d4d4d8 !important;
+  --c-texTer: #6272a4 !important;
+  --c-texDis: #44475a !important;
+  --c-texAccPri: #bd93f9 !important;
+  --c-texInvPri: #282a36 !important;
+  --c-texInvSec: #44475a !important;
+
+  --c-icoPri: #d4d4d8 !important;
+  --c-icoSec: #b4b4bb !important;
+  --c-icoTer: #6272a4 !important;
+  --c-icoDis: #44475a !important;
+  --c-icoAccPri: #bd93f9 !important;
+  --c-icoInvPri: #282a36 !important;
+  --c-icoInvSec: #44475a !important;
+
+  --c-borPri: #44475a !important;
+  --c-borSec: #535680 !important;
+  --c-borInvPri: #d4d4d8 !important;
+  --c-borAccPri: #bd93f9 !important;
+  --c-borStr: #535680 !important;
+
+  --c-popBac: #44475a !important;
+  --c-calIteBac: #44475a !important;
+  --c-homScrButBacBas: #44475a !important;
+  --c-codStiBloBac: #282a36 !important;
+  --c-hovMarDisBac: #44475a !important;
+  --c-selMarDisBac: #535680 !important;
+  --c-whi: #44475a !important;
+  --c-whiButBac: #44475a !important;
+  --c-whiButHovBac: #535680 !important;
+  --c-whiButPreBac: #6272a4 !important;
+  --c-assCorButBac: #44475a !important;
+  --c-assCorButBacHov: #535680 !important;
+  --c-assCorButBacPre: #6272a4 !important;
+  --c-butGroBac: #44475a !important;
+  --c-timBac: #282a36 !important;
+  --c-peeTimBac: #282a36 !important;
+  --c-sitBuiBac: #282a36 !important;
+  --c-beiBanBac: #44475a !important;
+  --c-darBanBac: #535680 !important;
+  --c-keyDonBarBac: #44475a !important;
+  --c-keyActBarBac: #535680 !important;
+  --c-sitPagPreWinChrBar: #44475a !important;
+  --c-sidSecCol: #6272a4 !important;
+
+  --c-sidBoxSha: inset calc(1*-1px) 0px 0px 0px #44475a !important;
+  --c-sidResBoxSha: inset calc(1*-2px) 0px 0px 0px #44475a33 !important;
+
+  --c-shaCol: #000000 !important;
+  --c-sha2XS: 0 0 0 1px #00000040 !important;
+  --c-shaXS: 0px 2px 4px 0 #00000033, 0 0 0 1px #00000040 !important;
+  --c-shaSM: 0px 4px 12px -2px #00000040, 0 0 0 1px #00000040 !important;
+  --c-shaMD: 0px 14px 28px -6px #0000004d, 0px 2px 4px -1px #00000033, 0 0 0 1px #00000040 !important;
+  --c-homScrButSha: 0 0 0 1px #0000004d, 0 2px 4px #00000033 !important;
+  --c-homShaCarBas: 0 0 0 1px #00000040 !important;
+  --c-homShaCarHov: 0 0 0 1px #00000066 !important;
+
+  --c-graBacPri: #44475a !important;
+  --c-graBacSec: #383a4a !important;
+  --c-graBacTer: #535680 !important;
+  --c-graBacEle: #44475a !important;
+  --c-graTexPri: #d4d4d8 !important;
+  --c-graTexSec: #b4b4bb !important;
+  --c-graBorPri: #535680 !important;
+  --c-graBorSec: #44475a !important;
+
+  --ca-homTilBac: #44475ae6 !important;
+  --cd-homCarBacBas: #44475a !important;
+  --cd-homCarBacHov: #535680 !important;
+  --cd-boaIteDefBac: #44475a !important;
+  --ca-popWaxPapBac: #44475ae6 !important;
+  --c-palGra0: #44475a !important;
+}
+
+/* ========================================= */
+/* SOLARIZED DARK                            */
+/* Ethan Schoonover's iconic color scheme    */
+/* ========================================= */
+body.zen-theme-solarized .notion-app-inner,
+body.zen-theme-solarized .notion-light-theme,
+body.zen-theme-solarized .notion-dark-theme,
+body.zen-theme-solarized {
+  --c-bacPri: #002b36 !important;
+  --c-bacPriW: #002b36 !important;
+  --c-bacSec: #00212b !important;
+  --c-bacTer: #073642 !important;
+  --c-bacEle: #073642 !important;
+  --c-bacAccPri: #268bd2 !important;
+  --c-bacAccSec: #2aa198 !important;
+  --c-bacPriInv: #fdf6e3 !important;
+
+  --c-texPri: #fdf6e3 !important;
+  --c-texSec: #93a1a1 !important;
+  --c-texTer: #657b83 !important;
+  --c-texDis: #586e75 !important;
+  --c-texAccPri: #268bd2 !important;
+  --c-texInvPri: #002b36 !important;
+  --c-texInvSec: #073642 !important;
+
+  --c-icoPri: #93a1a1 !important;
+  --c-icoSec: #839496 !important;
+  --c-icoTer: #657b83 !important;
+  --c-icoDis: #586e75 !important;
+  --c-icoAccPri: #268bd2 !important;
+  --c-icoInvPri: #002b36 !important;
+  --c-icoInvSec: #073642 !important;
+
+  --c-borPri: #073642 !important;
+  --c-borSec: #0a4555 !important;
+  --c-borInvPri: #93a1a1 !important;
+  --c-borAccPri: #268bd2 !important;
+  --c-borStr: #586e75 !important;
+
+  --c-popBac: #073642 !important;
+  --c-calIteBac: #073642 !important;
+  --c-homScrButBacBas: #073642 !important;
+  --c-codStiBloBac: #002b36 !important;
+  --c-hovMarDisBac: #073642 !important;
+  --c-selMarDisBac: #0a4555 !important;
+  --c-whi: #073642 !important;
+  --c-whiButBac: #073642 !important;
+  --c-whiButHovBac: #0a4555 !important;
+  --c-whiButPreBac: #586e75 !important;
+  --c-assCorButBac: #073642 !important;
+  --c-assCorButBacHov: #0a4555 !important;
+  --c-assCorButBacPre: #586e75 !important;
+  --c-butGroBac: #073642 !important;
+  --c-timBac: #002b36 !important;
+  --c-peeTimBac: #002b36 !important;
+  --c-sitBuiBac: #002b36 !important;
+  --c-beiBanBac: #073642 !important;
+  --c-darBanBac: #0a4555 !important;
+  --c-keyDonBarBac: #073642 !important;
+  --c-keyActBarBac: #0a4555 !important;
+  --c-sitPagPreWinChrBar: #073642 !important;
+  --c-sidSecCol: #657b83 !important;
+
+  --c-sidBoxSha: inset calc(1*-1px) 0px 0px 0px #073642 !important;
+  --c-sidResBoxSha: inset calc(1*-2px) 0px 0px 0px #07364233 !important;
+
+  --c-shaCol: #000000 !important;
+  --c-sha2XS: 0 0 0 1px #00000040 !important;
+  --c-shaXS: 0px 2px 4px 0 #00000033, 0 0 0 1px #00000040 !important;
+  --c-shaSM: 0px 4px 12px -2px #00000040, 0 0 0 1px #00000040 !important;
+  --c-shaMD: 0px 14px 28px -6px #0000004d, 0px 2px 4px -1px #00000033, 0 0 0 1px #00000040 !important;
+  --c-homScrButSha: 0 0 0 1px #0000004d, 0 2px 4px #00000033 !important;
+  --c-homShaCarBas: 0 0 0 1px #00000040 !important;
+  --c-homShaCarHov: 0 0 0 1px #00000066 !important;
+
+  --c-graBacPri: #073642 !important;
+  --c-graBacSec: #002b36 !important;
+  --c-graBacTer: #0a4555 !important;
+  --c-graBacEle: #073642 !important;
+  --c-graTexPri: #93a1a1 !important;
+  --c-graTexSec: #839496 !important;
+  --c-graBorPri: #0a4555 !important;
+  --c-graBorSec: #073642 !important;
+
+  --ca-homTilBac: #073642e6 !important;
+  --cd-homCarBacBas: #073642 !important;
+  --cd-homCarBacHov: #0a4555 !important;
+  --cd-boaIteDefBac: #073642 !important;
+  --ca-popWaxPapBac: #073642e6 !important;
+  --c-palGra0: #073642 !important;
+}
+
+/* ========================================= */
+/* ROSÉ PINE (Dark)                          */
+/* Warm, soothingly dark with rose accents   */
+/* ========================================= */
+body.zen-theme-rose .notion-app-inner,
+body.zen-theme-rose .notion-light-theme,
+body.zen-theme-rose .notion-dark-theme,
+body.zen-theme-rose {
+  --c-bacPri: #191724 !important;
+  --c-bacPriW: #191724 !important;
+  --c-bacSec: #1f1d2e !important;
+  --c-bacTer: #26233a !important;
+  --c-bacEle: #26233a !important;
+  --c-bacAccPri: #c4a7e7 !important;
+  --c-bacAccSec: #ebbcba !important;
+  --c-bacPriInv: #e0def4 !important;
+
+  --c-texPri: #e0def4 !important;
+  --c-texSec: #c4c3d5 !important;
+  --c-texTer: #6e6a86 !important;
+  --c-texDis: #524f67 !important;
+  --c-texAccPri: #c4a7e7 !important;
+  --c-texInvPri: #191724 !important;
+  --c-texInvSec: #26233a !important;
+
+  --c-icoPri: #c4c3d5 !important;
+  --c-icoSec: #908caa !important;
+  --c-icoTer: #6e6a86 !important;
+  --c-icoDis: #524f67 !important;
+  --c-icoAccPri: #c4a7e7 !important;
+  --c-icoInvPri: #191724 !important;
+  --c-icoInvSec: #26233a !important;
+
+  --c-borPri: #26233a !important;
+  --c-borSec: #393552 !important;
+  --c-borInvPri: #c4c3d5 !important;
+  --c-borAccPri: #c4a7e7 !important;
+  --c-borStr: #524f67 !important;
+
+  --c-popBac: #26233a !important;
+  --c-calIteBac: #26233a !important;
+  --c-homScrButBacBas: #26233a !important;
+  --c-codStiBloBac: #191724 !important;
+  --c-hovMarDisBac: #26233a !important;
+  --c-selMarDisBac: #393552 !important;
+  --c-whi: #26233a !important;
+  --c-whiButBac: #26233a !important;
+  --c-whiButHovBac: #393552 !important;
+  --c-whiButPreBac: #524f67 !important;
+  --c-assCorButBac: #26233a !important;
+  --c-assCorButBacHov: #393552 !important;
+  --c-assCorButBacPre: #524f67 !important;
+  --c-butGroBac: #26233a !important;
+  --c-timBac: #191724 !important;
+  --c-peeTimBac: #191724 !important;
+  --c-sitBuiBac: #191724 !important;
+  --c-beiBanBac: #26233a !important;
+  --c-darBanBac: #393552 !important;
+  --c-keyDonBarBac: #26233a !important;
+  --c-keyActBarBac: #393552 !important;
+  --c-sitPagPreWinChrBar: #26233a !important;
+  --c-sidSecCol: #6e6a86 !important;
+
+  --c-sidBoxSha: inset calc(1*-1px) 0px 0px 0px #26233a !important;
+  --c-sidResBoxSha: inset calc(1*-2px) 0px 0px 0px #26233a33 !important;
+
+  --c-shaCol: #000000 !important;
+  --c-sha2XS: 0 0 0 1px #00000040 !important;
+  --c-shaXS: 0px 2px 4px 0 #00000033, 0 0 0 1px #00000040 !important;
+  --c-shaSM: 0px 4px 12px -2px #00000040, 0 0 0 1px #00000040 !important;
+  --c-shaMD: 0px 14px 28px -6px #0000004d, 0px 2px 4px -1px #00000033, 0 0 0 1px #00000040 !important;
+  --c-homScrButSha: 0 0 0 1px #0000004d, 0 2px 4px #00000033 !important;
+  --c-homShaCarBas: 0 0 0 1px #00000040 !important;
+  --c-homShaCarHov: 0 0 0 1px #00000066 !important;
+
+  --c-graBacPri: #393552 !important;
+  --c-graBacSec: #26233a !important;
+  --c-graBacTer: #524f67 !important;
+  --c-graBacEle: #26233a !important;
+  --c-graTexPri: #c4c3d5 !important;
+  --c-graTexSec: #908caa !important;
+  --c-graBorPri: #524f67 !important;
+  --c-graBorSec: #393552 !important;
+
+  --ca-homTilBac: #26233ae6 !important;
+  --cd-homCarBacBas: #26233a !important;
+  --cd-homCarBacHov: #393552 !important;
+  --cd-boaIteDefBac: #26233a !important;
+  --ca-popWaxPapBac: #26233ae6 !important;
+  --c-palGra0: #26233a !important;
+}
+
+/* ========================================= */
+/* CATPPUCCIN MOCHA (Dark)                   */
+/* Soothing pastel dark theme                */
+/* ========================================= */
+body.zen-theme-catppuccin .notion-app-inner,
+body.zen-theme-catppuccin .notion-light-theme,
+body.zen-theme-catppuccin .notion-dark-theme,
+body.zen-theme-catppuccin {
+  --c-bacPri: #1e1e2e !important;
+  --c-bacPriW: #1e1e2e !important;
+  --c-bacSec: #181825 !important;
+  --c-bacTer: #313244 !important;
+  --c-bacEle: #313244 !important;
+  --c-bacAccPri: #cba6f7 !important;
+  --c-bacAccSec: #f5c2e7 !important;
+  --c-bacPriInv: #cdd6f4 !important;
+
+  --c-texPri: #cdd6f4 !important;
+  --c-texSec: #bac2de !important;
+  --c-texTer: #6c7086 !important;
+  --c-texDis: #45475a !important;
+  --c-texAccPri: #cba6f7 !important;
+  --c-texInvPri: #1e1e2e !important;
+  --c-texInvSec: #313244 !important;
+
+  --c-icoPri: #bac2de !important;
+  --c-icoSec: #a6adc8 !important;
+  --c-icoTer: #6c7086 !important;
+  --c-icoDis: #45475a !important;
+  --c-icoAccPri: #cba6f7 !important;
+  --c-icoInvPri: #1e1e2e !important;
+  --c-icoInvSec: #313244 !important;
+
+  --c-borPri: #313244 !important;
+  --c-borSec: #45475a !important;
+  --c-borInvPri: #bac2de !important;
+  --c-borAccPri: #cba6f7 !important;
+  --c-borStr: #585b70 !important;
+
+  --c-popBac: #313244 !important;
+  --c-calIteBac: #313244 !important;
+  --c-homScrButBacBas: #313244 !important;
+  --c-codStiBloBac: #1e1e2e !important;
+  --c-hovMarDisBac: #313244 !important;
+  --c-selMarDisBac: #45475a !important;
+  --c-whi: #313244 !important;
+  --c-whiButBac: #313244 !important;
+  --c-whiButHovBac: #45475a !important;
+  --c-whiButPreBac: #585b70 !important;
+  --c-assCorButBac: #313244 !important;
+  --c-assCorButBacHov: #45475a !important;
+  --c-assCorButBacPre: #585b70 !important;
+  --c-butGroBac: #313244 !important;
+  --c-timBac: #1e1e2e !important;
+  --c-peeTimBac: #1e1e2e !important;
+  --c-sitBuiBac: #1e1e2e !important;
+  --c-beiBanBac: #313244 !important;
+  --c-darBanBac: #45475a !important;
+  --c-keyDonBarBac: #313244 !important;
+  --c-keyActBarBac: #45475a !important;
+  --c-sitPagPreWinChrBar: #313244 !important;
+  --c-sidSecCol: #6c7086 !important;
+
+  --c-sidBoxSha: inset calc(1*-1px) 0px 0px 0px #313244 !important;
+  --c-sidResBoxSha: inset calc(1*-2px) 0px 0px 0px #31324433 !important;
+
+  --c-shaCol: #000000 !important;
+  --c-sha2XS: 0 0 0 1px #00000040 !important;
+  --c-shaXS: 0px 2px 4px 0 #00000033, 0 0 0 1px #00000040 !important;
+  --c-shaSM: 0px 4px 12px -2px #00000040, 0 0 0 1px #00000040 !important;
+  --c-shaMD: 0px 14px 28px -6px #0000004d, 0px 2px 4px -1px #00000033, 0 0 0 1px #00000040 !important;
+  --c-homScrButSha: 0 0 0 1px #0000004d, 0 2px 4px #00000033 !important;
+  --c-homShaCarBas: 0 0 0 1px #00000040 !important;
+  --c-homShaCarHov: 0 0 0 1px #00000066 !important;
+
+  --c-graBacPri: #45475a !important;
+  --c-graBacSec: #313244 !important;
+  --c-graBacTer: #585b70 !important;
+  --c-graBacEle: #313244 !important;
+  --c-graTexPri: #bac2de !important;
+  --c-graTexSec: #a6adc8 !important;
+  --c-graBorPri: #585b70 !important;
+  --c-graBorSec: #45475a !important;
+
+  --ca-homTilBac: #313244e6 !important;
+  --cd-homCarBacBas: #313244 !important;
+  --cd-homCarBacHov: #45475a !important;
+  --cd-boaIteDefBac: #313244 !important;
+  --ca-popWaxPapBac: #313244e6 !important;
+  --c-palGra0: #313244 !important;
+}
+
+/* ========================================= */
+/* ONE DARK (Dark)                           */
+/* Atom editor's signature theme             */
+/* ========================================= */
+body.zen-theme-onedark .notion-app-inner,
+body.zen-theme-onedark .notion-light-theme,
+body.zen-theme-onedark .notion-dark-theme,
+body.zen-theme-onedark {
+  --c-bacPri: #282c34 !important;
+  --c-bacPriW: #282c34 !important;
+  --c-bacSec: #21252b !important;
+  --c-bacTer: #353b45 !important;
+  --c-bacEle: #353b45 !important;
+  --c-bacAccPri: #61afef !important;
+  --c-bacAccSec: #c678dd !important;
+  --c-bacPriInv: #abb2bf !important;
+
+  --c-texPri: #abb2bf !important;
+  --c-texSec: #9da5b4 !important;
+  --c-texTer: #636d83 !important;
+  --c-texDis: #4b5263 !important;
+  --c-texAccPri: #61afef !important;
+  --c-texInvPri: #282c34 !important;
+  --c-texInvSec: #353b45 !important;
+
+  --c-icoPri: #9da5b4 !important;
+  --c-icoSec: #8b95a7 !important;
+  --c-icoTer: #636d83 !important;
+  --c-icoDis: #4b5263 !important;
+  --c-icoAccPri: #61afef !important;
+  --c-icoInvPri: #282c34 !important;
+  --c-icoInvSec: #353b45 !important;
+
+  --c-borPri: #353b45 !important;
+  --c-borSec: #3e4452 !important;
+  --c-borInvPri: #9da5b4 !important;
+  --c-borAccPri: #61afef !important;
+  --c-borStr: #4b5263 !important;
+
+  --c-popBac: #353b45 !important;
+  --c-calIteBac: #353b45 !important;
+  --c-homScrButBacBas: #353b45 !important;
+  --c-codStiBloBac: #282c34 !important;
+  --c-hovMarDisBac: #353b45 !important;
+  --c-selMarDisBac: #3e4452 !important;
+  --c-whi: #353b45 !important;
+  --c-whiButBac: #353b45 !important;
+  --c-whiButHovBac: #3e4452 !important;
+  --c-whiButPreBac: #4b5263 !important;
+  --c-assCorButBac: #353b45 !important;
+  --c-assCorButBacHov: #3e4452 !important;
+  --c-assCorButBacPre: #4b5263 !important;
+  --c-butGroBac: #353b45 !important;
+  --c-timBac: #282c34 !important;
+  --c-peeTimBac: #282c34 !important;
+  --c-sitBuiBac: #282c34 !important;
+  --c-beiBanBac: #353b45 !important;
+  --c-darBanBac: #3e4452 !important;
+  --c-keyDonBarBac: #353b45 !important;
+  --c-keyActBarBac: #3e4452 !important;
+  --c-sitPagPreWinChrBar: #353b45 !important;
+  --c-sidSecCol: #636d83 !important;
+
+  --c-sidBoxSha: inset calc(1*-1px) 0px 0px 0px #353b45 !important;
+  --c-sidResBoxSha: inset calc(1*-2px) 0px 0px 0px #353b4533 !important;
+
+  --c-shaCol: #000000 !important;
+  --c-sha2XS: 0 0 0 1px #00000040 !important;
+  --c-shaXS: 0px 2px 4px 0 #00000033, 0 0 0 1px #00000040 !important;
+  --c-shaSM: 0px 4px 12px -2px #00000040, 0 0 0 1px #00000040 !important;
+  --c-shaMD: 0px 14px 28px -6px #0000004d, 0px 2px 4px -1px #00000033, 0 0 0 1px #00000040 !important;
+  --c-homScrButSha: 0 0 0 1px #0000004d, 0 2px 4px #00000033 !important;
+  --c-homShaCarBas: 0 0 0 1px #00000040 !important;
+  --c-homShaCarHov: 0 0 0 1px #00000066 !important;
+
+  --c-graBacPri: #3e4452 !important;
+  --c-graBacSec: #353b45 !important;
+  --c-graBacTer: #4b5263 !important;
+  --c-graBacEle: #353b45 !important;
+  --c-graTexPri: #9da5b4 !important;
+  --c-graTexSec: #8b95a7 !important;
+  --c-graBorPri: #4b5263 !important;
+  --c-graBorSec: #3e4452 !important;
+
+  --ca-homTilBac: #353b45e6 !important;
+  --cd-homCarBacBas: #353b45 !important;
+  --cd-homCarBacHov: #3e4452 !important;
+  --cd-boaIteDefBac: #353b45 !important;
+  --ca-popWaxPapBac: #353b45e6 !important;
+  --c-palGra0: #353b45 !important;
+}
+
+/* ========================================= */
+/* EVERFOREST (Dark)                         */
+/* Nature-inspired green tones               */
+/* ========================================= */
+body.zen-theme-everforest .notion-app-inner,
+body.zen-theme-everforest .notion-light-theme,
+body.zen-theme-everforest .notion-dark-theme,
+body.zen-theme-everforest {
+  --c-bacPri: #2d353b !important;
+  --c-bacPriW: #2d353b !important;
+  --c-bacSec: #272e33 !important;
+  --c-bacTer: #343f44 !important;
+  --c-bacEle: #343f44 !important;
+  --c-bacAccPri: #a7c080 !important;
+  --c-bacAccSec: #83c092 !important;
+  --c-bacPriInv: #d3c6aa !important;
+
+  --c-texPri: #d3c6aa !important;
+  --c-texSec: #bfb396 !important;
+  --c-texTer: #7a8478 !important;
+  --c-texDis: #56635f !important;
+  --c-texAccPri: #a7c080 !important;
+  --c-texInvPri: #2d353b !important;
+  --c-texInvSec: #343f44 !important;
+
+  --c-icoPri: #bfb396 !important;
+  --c-icoSec: #9da09f !important;
+  --c-icoTer: #7a8478 !important;
+  --c-icoDis: #56635f !important;
+  --c-icoAccPri: #a7c080 !important;
+  --c-icoInvPri: #2d353b !important;
+  --c-icoInvSec: #343f44 !important;
+
+  --c-borPri: #343f44 !important;
+  --c-borSec: #475258 !important;
+  --c-borInvPri: #bfb396 !important;
+  --c-borAccPri: #a7c080 !important;
+  --c-borStr: #56635f !important;
+
+  --c-popBac: #343f44 !important;
+  --c-calIteBac: #343f44 !important;
+  --c-homScrButBacBas: #343f44 !important;
+  --c-codStiBloBac: #2d353b !important;
+  --c-hovMarDisBac: #343f44 !important;
+  --c-selMarDisBac: #475258 !important;
+  --c-whi: #343f44 !important;
+  --c-whiButBac: #343f44 !important;
+  --c-whiButHovBac: #475258 !important;
+  --c-whiButPreBac: #56635f !important;
+  --c-assCorButBac: #343f44 !important;
+  --c-assCorButBacHov: #475258 !important;
+  --c-assCorButBacPre: #56635f !important;
+  --c-butGroBac: #343f44 !important;
+  --c-timBac: #2d353b !important;
+  --c-peeTimBac: #2d353b !important;
+  --c-sitBuiBac: #2d353b !important;
+  --c-beiBanBac: #343f44 !important;
+  --c-darBanBac: #475258 !important;
+  --c-keyDonBarBac: #343f44 !important;
+  --c-keyActBarBac: #475258 !important;
+  --c-sitPagPreWinChrBar: #343f44 !important;
+  --c-sidSecCol: #7a8478 !important;
+
+  --c-sidBoxSha: inset calc(1*-1px) 0px 0px 0px #343f44 !important;
+  --c-sidResBoxSha: inset calc(1*-2px) 0px 0px 0px #343f4433 !important;
+
+  --c-shaCol: #000000 !important;
+  --c-sha2XS: 0 0 0 1px #00000033 !important;
+  --c-shaXS: 0px 2px 4px 0 #00000026, 0 0 0 1px #00000033 !important;
+  --c-shaSM: 0px 4px 12px -2px #00000033, 0 0 0 1px #00000033 !important;
+  --c-shaMD: 0px 14px 28px -6px #00000040, 0px 2px 4px -1px #00000026, 0 0 0 1px #00000033 !important;
+  --c-homScrButSha: 0 0 0 1px #00000040, 0 2px 4px #00000026 !important;
+  --c-homShaCarBas: 0 0 0 1px #00000033 !important;
+  --c-homShaCarHov: 0 0 0 1px #00000059 !important;
+
+  --c-graBacPri: #475258 !important;
+  --c-graBacSec: #343f44 !important;
+  --c-graBacTer: #56635f !important;
+  --c-graBacEle: #343f44 !important;
+  --c-graTexPri: #bfb396 !important;
+  --c-graTexSec: #9da09f !important;
+  --c-graBorPri: #56635f !important;
+  --c-graBorSec: #475258 !important;
+
+  --ca-homTilBac: #343f44e6 !important;
+  --cd-homCarBacBas: #343f44 !important;
+  --cd-homCarBacHov: #475258 !important;
+  --cd-boaIteDefBac: #343f44 !important;
+  --ca-popWaxPapBac: #343f44e6 !important;
+  --c-palGra0: #343f44 !important;
+}
 
 /* ========================================= */
 /* DARK THEME TAG COLOR PALETTES             */
-/* Applies to Nord, Tokyo, and Midnight      */
+/* Applies to all dark themes                */
 /* ========================================= */
 body.zen-theme-nord [class*="notion-"],
 body.zen-theme-tokyo [class*="notion-"],
 body.zen-theme-midnight [class*="notion-"],
+body.zen-theme-dracula [class*="notion-"],
+body.zen-theme-solarized [class*="notion-"],
+body.zen-theme-rose [class*="notion-"],
+body.zen-theme-catppuccin [class*="notion-"],
+body.zen-theme-onedark [class*="notion-"],
+body.zen-theme-everforest [class*="notion-"],
 body.zen-theme-nord,
 body.zen-theme-tokyo,
-body.zen-theme-midnight {
+body.zen-theme-midnight,
+body.zen-theme-dracula,
+body.zen-theme-solarized,
+body.zen-theme-rose,
+body.zen-theme-catppuccin,
+body.zen-theme-onedark,
+body.zen-theme-everforest {
   /* Blue */
   --c-bluTexPri: #83abe1 !important;
   --c-bluTexSec: #5a8ed0 !important;
@@ -593,9 +1156,164 @@ body.zen-theme-midnight {
 
 /* ========================================= */
 /* ENFORCEMENT                               */
+/* Force variables on Notion's inner themes  */
 /* ========================================= */
 
-/* Ensure background variables override inline styles on key containers */
+/* Override Notion's .notion-light-theme and .notion-dark-theme
+   which set their own text/icon/border variables and win
+   over our body-level overrides */
+body[class*="zen-theme-"] .notion-light-theme,
+body[class*="zen-theme-"] .notion-dark-theme {
+  /* Text */
+  --c-texPri: inherit !important;
+  --c-texSec: inherit !important;
+  --c-texTer: inherit !important;
+  --c-texDis: inherit !important;
+  --c-texAccPri: inherit !important;
+  --c-texInvPri: inherit !important;
+  --c-texInvSec: inherit !important;
+
+  /* Icons */
+  --c-icoPri: inherit !important;
+  --c-icoSec: inherit !important;
+  --c-icoTer: inherit !important;
+  --c-icoDis: inherit !important;
+  --c-icoAccPri: inherit !important;
+  --c-icoInvPri: inherit !important;
+  --c-icoInvSec: inherit !important;
+
+  /* Backgrounds */
+  --c-bacPri: inherit !important;
+  --c-bacPriW: inherit !important;
+  --c-bacSec: inherit !important;
+  --c-bacTer: inherit !important;
+  --c-bacEle: inherit !important;
+  --c-bacAccPri: inherit !important;
+  --c-bacAccSec: inherit !important;
+  --c-bacPriInv: inherit !important;
+
+  /* Borders */
+  --c-borPri: inherit !important;
+  --c-borSec: inherit !important;
+  --c-borInvPri: inherit !important;
+  --c-borAccPri: inherit !important;
+  --c-borStr: inherit !important;
+
+  /* Element surfaces */
+  --c-popBac: inherit !important;
+  --c-calIteBac: inherit !important;
+  --c-homScrButBacBas: inherit !important;
+  --c-codStiBloBac: inherit !important;
+  --c-whi: inherit !important;
+  --c-whiButBac: inherit !important;
+  --c-whiButHovBac: inherit !important;
+  --c-whiButPreBac: inherit !important;
+  --c-assCorButBac: inherit !important;
+  --c-assCorButBacHov: inherit !important;
+  --c-assCorButBacPre: inherit !important;
+  --c-butGroBac: inherit !important;
+  --c-timBac: inherit !important;
+  --c-peeTimBac: inherit !important;
+  --c-sitBuiBac: inherit !important;
+  --c-beiBanBac: inherit !important;
+  --c-darBanBac: inherit !important;
+  --c-hovMarDisBac: inherit !important;
+  --c-selMarDisBac: inherit !important;
+
+  /* Shadows */
+  --c-shaCol: inherit !important;
+  --c-sha2XS: inherit !important;
+  --c-shaXS: inherit !important;
+  --c-shaSM: inherit !important;
+  --c-shaMD: inherit !important;
+  --c-sidBoxSha: inherit !important;
+  --c-sidResBoxSha: inherit !important;
+  --c-homScrButSha: inherit !important;
+  --c-homShaCarBas: inherit !important;
+  --c-homShaCarHov: inherit !important;
+
+  /* Sidebar */
+  --c-sidSecCol: inherit !important;
+  --c-keyDonBarBac: inherit !important;
+  --c-keyActBarBac: inherit !important;
+  --c-sitPagPreWinChrBar: inherit !important;
+
+  /* Gray palette */
+  --c-graBacPri: inherit !important;
+  --c-graBacSec: inherit !important;
+  --c-graBacTer: inherit !important;
+  --c-graBacEle: inherit !important;
+  --c-graTexPri: inherit !important;
+  --c-graTexSec: inherit !important;
+  --c-graBorPri: inherit !important;
+  --c-graBorSec: inherit !important;
+
+  /* Home cards & tiles */
+  --ca-homTilBac: inherit !important;
+  --cd-homCarBacBas: inherit !important;
+  --cd-homCarBacHov: inherit !important;
+  --cd-boaIteDefBac: inherit !important;
+  --ca-popWaxPapBac: inherit !important;
+  --c-palGra0: inherit !important;
+
+  /* Color tag palettes */
+  --c-bluTexPri: inherit !important;
+  --c-bluTexSec: inherit !important;
+  --c-bluIcoPri: inherit !important;
+  --c-bluBacPri: inherit !important;
+  --c-bluBacSec: inherit !important;
+  --c-bluBorPri: inherit !important;
+  --c-redTexPri: inherit !important;
+  --c-redTexSec: inherit !important;
+  --c-redIcoPri: inherit !important;
+  --c-redBacPri: inherit !important;
+  --c-redBacSec: inherit !important;
+  --c-redBorPri: inherit !important;
+  --c-greTexPri: inherit !important;
+  --c-greTexSec: inherit !important;
+  --c-greIcoPri: inherit !important;
+  --c-greBacPri: inherit !important;
+  --c-greBacSec: inherit !important;
+  --c-greBorPri: inherit !important;
+  --c-oraTexPri: inherit !important;
+  --c-oraTexSec: inherit !important;
+  --c-oraIcoPri: inherit !important;
+  --c-oraBacPri: inherit !important;
+  --c-oraBacSec: inherit !important;
+  --c-oraBorPri: inherit !important;
+  --c-yelTexPri: inherit !important;
+  --c-yelTexSec: inherit !important;
+  --c-yelIcoPri: inherit !important;
+  --c-yelBacPri: inherit !important;
+  --c-yelBacSec: inherit !important;
+  --c-yelBorPri: inherit !important;
+  --c-purTexPri: inherit !important;
+  --c-purTexSec: inherit !important;
+  --c-purIcoPri: inherit !important;
+  --c-purBacPri: inherit !important;
+  --c-purBacSec: inherit !important;
+  --c-purBorPri: inherit !important;
+  --c-pinTexPri: inherit !important;
+  --c-pinTexSec: inherit !important;
+  --c-pinIcoPri: inherit !important;
+  --c-pinBacPri: inherit !important;
+  --c-pinBacSec: inherit !important;
+  --c-pinBorPri: inherit !important;
+  --c-broTexPri: inherit !important;
+  --c-broTexSec: inherit !important;
+  --c-broIcoPri: inherit !important;
+  --c-broBacPri: inherit !important;
+  --c-broBacSec: inherit !important;
+  --c-broBorPri: inherit !important;
+  --c-teaTexPri: inherit !important;
+  --c-teaTexSec: inherit !important;
+  --c-teaIcoPri: inherit !important;
+  --c-teaBacPri: inherit !important;
+  --c-teaBacSec: inherit !important;
+  --c-teaBorPri: inherit !important;
+}
+
+/* Force colors on main containers */
 body[class*="zen-theme-"] .notion-app-inner {
   background-color: var(--c-bacPri) !important;
   color: var(--c-texPri) !important;
@@ -603,6 +1321,11 @@ body[class*="zen-theme-"] .notion-app-inner {
 
 body[class*="zen-theme-"] .notion-sidebar-container {
   background-color: var(--c-bacSec) !important;
+  color: var(--c-texPri) !important;
+}
+
+body[class*="zen-theme-"] .notion-frame {
+  color: var(--c-texPri) !important;
 }
 
 /* Selection */
@@ -610,4 +1333,3 @@ body[class*="zen-theme-"] ::selection {
   background: var(--c-bacTer) !important;
   color: var(--c-texPri) !important;
 }
-
