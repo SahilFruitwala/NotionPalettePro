@@ -457,6 +457,141 @@ body.zen-theme-gray {
 }
 
 /* ========================================= */
+/* DARK THEME TAG COLOR PALETTES             */
+/* Applies to Nord, Tokyo, and Midnight      */
+/* ========================================= */
+body.zen-theme-nord [class*="notion-"],
+body.zen-theme-tokyo [class*="notion-"],
+body.zen-theme-midnight [class*="notion-"],
+body.zen-theme-nord,
+body.zen-theme-tokyo,
+body.zen-theme-midnight {
+  /* Blue */
+  --c-bluTexPri: #83abe1 !important;
+  --c-bluTexSec: #5a8ed0 !important;
+  --c-bluIcoPri: #83abe1 !important;
+  --c-bluIcoSec: #5a8ed0 !important;
+  --c-bluBacPri: #183347 !important;
+  --c-bluBacSec: #1e3d54 !important;
+  --c-bluBacTer: #264a65 !important;
+  --c-bluBacEle: #1e3d54 !important;
+  --c-bluBorPri: #264a65 !important;
+
+  /* Red */
+  --c-redTexPri: #e08b84 !important;
+  --c-redTexSec: #cf5148 !important;
+  --c-redIcoPri: #e08b84 !important;
+  --c-redIcoSec: #cf5148 !important;
+  --c-redBacPri: #4d2524 !important;
+  --c-redBacSec: #5d2e2c !important;
+  --c-redBacTer: #6d3531 !important;
+  --c-redBacEle: #5d2e2c !important;
+  --c-redBorPri: #6d3531 !important;
+
+  /* Green */
+  --c-greTexPri: #8bb79d !important;
+  --c-greTexSec: #50946e !important;
+  --c-greIcoPri: #8bb79d !important;
+  --c-greIcoSec: #50946e !important;
+  --c-greBacPri: #1c3829 !important;
+  --c-greBacSec: #234432 !important;
+  --c-greBacTer: #2a533c !important;
+  --c-greBacEle: #234432 !important;
+  --c-greBorPri: #2a533c !important;
+
+  /* Orange */
+  --c-oraTexPri: #cba27d !important;
+  --c-oraTexSec: #d27b2d !important;
+  --c-oraIcoPri: #cba27d !important;
+  --c-oraIcoSec: #d27b2d !important;
+  --c-oraBacPri: #49290e !important;
+  --c-oraBacSec: #563214 !important;
+  --c-oraBacTer: #6a4222 !important;
+  --c-oraBacEle: #563214 !important;
+  --c-oraBorPri: #6a4222 !important;
+
+  /* Yellow */
+  --c-yelTexPri: #d8c283 !important;
+  --c-yelTexSec: #cb9434 !important;
+  --c-yelIcoPri: #d8c283 !important;
+  --c-yelIcoSec: #cb9434 !important;
+  --c-yelBacPri: #402c1b !important;
+  --c-yelBacSec: #4d3520 !important;
+  --c-yelBacTer: #5a3e26 !important;
+  --c-yelBacEle: #4d3520 !important;
+  --c-yelBorPri: #5a3e26 !important;
+
+  /* Purple */
+  --c-purTexPri: #b49cc6 !important;
+  --c-purTexSec: #9a6bb4 !important;
+  --c-purIcoPri: #b49cc6 !important;
+  --c-purIcoSec: #9a6bb4 !important;
+  --c-purBacPri: #352045 !important;
+  --c-purBacSec: #412854 !important;
+  --c-purBacTer: #4d3063 !important;
+  --c-purBacEle: #412854 !important;
+  --c-purBorPri: #4d3063 !important;
+
+  /* Pink */
+  --c-pinTexPri: #c897ad !important;
+  --c-pinTexSec: #c14c8a !important;
+  --c-pinIcoPri: #c897ad !important;
+  --c-pinIcoSec: #c14c8a !important;
+  --c-pinBacPri: #4c2337 !important;
+  --c-pinBacSec: #5a2b42 !important;
+  --c-pinBacTer: #68354e !important;
+  --c-pinBacEle: #5a2b42 !important;
+  --c-pinBorPri: #68354e !important;
+
+  /* Brown */
+  --c-broTexPri: #bca290 !important;
+  --c-broTexSec: #9f765a !important;
+  --c-broIcoPri: #bca290 !important;
+  --c-broIcoSec: #9f765a !important;
+  --c-broBacPri: #3d2518 !important;
+  --c-broBacSec: #4a2e1f !important;
+  --c-broBacTer: #584437 !important;
+  --c-broBacEle: #4a2e1f !important;
+  --c-broBorPri: #584437 !important;
+
+  /* Teal */
+  --c-teaTexPri: #7eb6c2 !important;
+  --c-teaTexSec: #2c8b9e !important;
+  --c-teaIcoPri: #7eb6c2 !important;
+  --c-teaIcoSec: #2c8b9e !important;
+  --c-teaBacPri: #133840 !important;
+  --c-teaBacSec: #1a454e !important;
+  --c-teaBacTer: #22545e !important;
+  --c-teaBacEle: #1a454e !important;
+  --c-teaBorPri: #22545e !important;
+
+  /* Notion Palette base overrides */
+  --c-palGra50: #3b4252 !important;
+  --c-palGra500: #7b88a1 !important;
+  --c-palGra600: #6b7891 !important;
+  --c-palGra700: #5b6881 !important;
+  --c-palGra800: #434c5e !important;
+  --c-palGra900: #2e3440 !important;
+
+  --c-palBlu800: #183347 !important;
+  --c-palBlu900: #0c1d2b !important;
+  --c-palRed800: #5d1715 !important;
+  --c-palRed900: #30130f !important;
+  --c-palGre800: #1c3829 !important;
+  --c-palGre900: #102416 !important;
+  --c-palOra800: #49290e !important;
+  --c-palOra900: #281809 !important;
+  --c-palYel800: #402c1b !important;
+  --c-palYel900: #251910 !important;
+  --c-palPur800: #412454 !important;
+  --c-palPur900: #26152e !important;
+  --c-palPin800: #4c2337 !important;
+  --c-palPin900: #2c1420 !important;
+  --c-palBro800: #442a1e !important;
+  --c-palBro900: #2d1506 !important;
+}
+
+/* ========================================= */
 /* ENFORCEMENT                               */
 /* ========================================= */
 
@@ -475,3 +610,4 @@ body[class*="zen-theme-"] ::selection {
   background: var(--c-bacTer) !important;
   color: var(--c-texPri) !important;
 }
+
