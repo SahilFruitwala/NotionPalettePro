@@ -1,8 +1,8 @@
-# Zen Styles for Notion
+# Notion Palette Pro
 
-Zen Styles is a professional, high-performance browser extension designed to bring beautiful, curated color palettes to your Notion workspace. Unlike simple CSS injectors, Zen Styles overrides over 100 internal Notion CSS variables to ensure comprehensive coverage across every UI surface—from the sidebar and frames to cards, tables, and even popups.
+Notion Palette Pro is a professional, high-performance browser extension designed to bring beautiful, curated color palettes to your Notion workspace. Unlike simple CSS injectors, Notion Palette Pro overrides over 100 internal Notion CSS variables to ensure comprehensive coverage across every UI surface—from the sidebar and frames to cards, tables, and even popups.
 
-<!-- ![Zen Styles Showcasing Dracula Theme](screenshots/dracula_preview.png) -->
+<!-- ![Notion Palette Pro Showcasing Dracula Theme](screenshots/dracula_preview.png) -->
 
 ## ✨ Features
 
@@ -44,18 +44,18 @@ Zen Styles is a professional, high-performance browser extension designed to bri
 
 Follow these simple steps to transform your Notion experience:
 
-1.  **Install the Extension:**
-    - Go to `chrome://extensions/` in your browser.
-    - Click **Load unpacked** and select the `/NotionTheme` folder.
-2.  **Open Notion:**
-    - Go to [notion.so](https://www.notion.so) and log in.
-3.  **Open Zen Styles:**
-    - Click the **Puzzle Piece** icon (Extensions) in your browser toolbar.
-    - Find **Zen Styles** and pin it for easy access.
-4.  **Choose Your Vibe:**
-    - Click the Zen Styles icon to open the theme picker.
-    - Select any of the 11+ professional themes.
-    - Your Notion workspace will update **instantly** without a page refresh!
+1. **Install the Extension:**
+   - Go to `chrome://extensions/` in your browser.
+   - Click **Load unpacked** and select the `/NotionTheme` folder.
+2. **Open Notion:**
+   - Go to [notion.so](https://www.notion.so) and log in.
+3. **Open Notion Palette Pro:**
+   - Click the **Puzzle Piece** icon (Extensions) in your browser toolbar.
+   - Find **Notion Palette Pro** and pin it for easy access.
+4. **Choose Your Vibe:**
+   - Click the Notion Palette Pro icon to open the theme picker.
+   - Select any of the 11+ professional themes.
+   - Your Notion workspace will update **instantly** without a page refresh!
 
 ## 📸 Screenshots
 
@@ -76,4 +76,4 @@ Feel free to open issues or submit pull requests with new theme ideas!
 
 ---
 
-_Zen Styles is not affiliated with Notion Labs, Inc._
+_Notion Palette Pro is not affiliated with Notion Labs, Inc._
