@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Zen Styles for Notion",
+  "version": "1.0",
+  "description": "Customize Notion with beautiful, tailored color themes.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["*://*.notion.so/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Customize Notion Theme"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.notion.so/*"],
+      "js": ["content.js"],
+      "css": ["theme.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

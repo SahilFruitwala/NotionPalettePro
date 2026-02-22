@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <title>Zen Styles for Notion</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Zen Styles</h1>
+      <p>Customize your Notion experience.</p>
+    </header>
+
+    <main class="themes-grid">
+      <button class="theme-btn" data-theme="default">
+        <div class="theme-preview">
+          <div class="preview-sidebar" style="background:#f9f8f7;"></div>
+          <div class="preview-main" style="background:#ffffff;"></div>
+        </div>
+        <span>Default</span>
+      </button>
+
+      <button class="theme-btn" data-theme="nord">
+        <div class="theme-preview">
+          <div class="preview-sidebar" style="background:#272c36;"></div>
+          <div class="preview-main" style="background:#2e3440;"></div>
+        </div>
+        <span>Nord</span>
+      </button>
+
+      <button class="theme-btn" data-theme="tokyo">
+        <div class="theme-preview">
+          <div class="preview-sidebar" style="background:#16161e;"></div>
+          <div class="preview-main" style="background:#1a1b26;"></div>
+        </div>
+        <span>Tokyo Night</span>
+      </button>
+
+      <button class="theme-btn" data-theme="sepia">
+        <div class="theme-preview">
+          <div class="preview-sidebar" style="background:#F4E8D1;"></div>
+          <div class="preview-main" style="background:#FDF6E3;"></div>
+        </div>
+        <span>Sepia</span>
+      </button>
+
+      <button class="theme-btn" data-theme="midnight">
+        <div class="theme-preview">
+          <div class="preview-sidebar" style="background:#0B1120;"></div>
+          <div class="preview-main" style="background:#0F172A;"></div>
+        </div>
+        <span>Midnight</span>
+      </button>
+
+      <button class="theme-btn" data-theme="gray">
+        <div class="theme-preview">
+          <div class="preview-sidebar" style="background:#F3F4F6;"></div>
+          <div class="preview-main" style="background:#F9FAFB;"></div>
+        </div>
+        <span>Clean Gray</span>
+      </button>
+    </main>
+
+    <footer class="footer">
+      <p id="status-msg">Changes apply instantly</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
