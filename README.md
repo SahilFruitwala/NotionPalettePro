@@ -4,8 +4,8 @@ Notion Palette Pro is a professional, high-performance browser extension designe
 
 ## 🔗 Links
 
-- **Home Page:** https://github.com/SahilFruitwala/NotionPalettePro
-- **Privacy Policy:** https://github.com/SahilFruitwala/NotionPalettePro/blob/main/privacy-policy.html
+- [Home Page](https://github.com/SahilFruitwala/NotionPalettePro)
+- [Privacy Policy](https://sahilfruitwala.github.io/NotionPalettePro/privacy-policy)
 
 ## ✨ Features
 
