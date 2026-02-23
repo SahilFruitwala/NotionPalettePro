@@ -3,7 +3,7 @@
   "name": "Notion Palette Pro",
   "version": "1.0",
   "description": "Premium curated color themes for your Notion workspace.",
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
   "host_permissions": ["*://*.notion.so/*"],
   "background": {
     "service_worker": "background.js"
