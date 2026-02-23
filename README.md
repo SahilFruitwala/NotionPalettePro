@@ -2,7 +2,10 @@
 
 Notion Palette Pro is a professional, high-performance browser extension designed to bring beautiful, curated color palettes to your Notion workspace. Unlike simple CSS injectors, Notion Palette Pro overrides over 100 internal Notion CSS variables to ensure comprehensive coverage across every UI surface—from the sidebar and frames to cards, tables, and even popups.
 
-<!-- ![Notion Palette Pro Showcasing Dracula Theme](screenshots/dracula_preview.png) -->
+## 🔗 Links
+
+- **Home Page:** https://github.com/SahilFruitwala/NotionPalettePro
+- **Privacy Policy:** https://github.com/SahilFruitwala/NotionPalettePro/blob/main/privacy-policy.html
 
 ## ✨ Features
 
@@ -59,8 +62,14 @@ Follow these simple steps to transform your Notion experience:
 
 ## 📸 Screenshots
 
-![Nord Theme Verified](screenshots/nord_verification.png)
-_(Note: Screenshots are located in the screenshots/ directory)_
+### Extension Popup
+![Notion Palette Pro Popup](Screenshots/resized-SCR-20260222-myxb.png)
+
+### Notion Theme Preview 1
+![Notion Theme Preview 1](Screenshots/resized-SCR-20260222-mzbm.png)
+
+### Notion Theme Preview 2
+![Notion Theme Preview 2](Screenshots/resized-SCR-20260222-mzes.png)
 
 ## 🏗️ Project Structure
 
@@ -69,6 +78,7 @@ _(Note: Screenshots are located in the screenshots/ directory)_
 - `content.js`: Handles real-time CSS injection.
 - `popup.html/css/js`: The clean, modern theme picker interface.
 - `background.js`: Manages extension lifecycle.
+- `privacy-policy.html`: Public privacy policy page for Chrome Web Store compliance.
 
 ## 🤝 Contributing
 
